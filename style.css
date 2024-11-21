@@ -1,0 +1,67 @@
+body {
+    color: #f0f0f0; /* Texto claro */
+    background: #2C3E50; /* Cor de fundo escura (tom de azul escuro) */
+    margin: 0;
+    font-family: "Chakra Petch", sans-serif;
+    padding-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px #9B59B6; /* Cor de borda roxa */
+    padding: 20px 40px;
+    font-size: 32px;
+    color: #9B59B6; /* Cor do texto no header */
+    text-align: center;
+}
+
+.chamada {
+    background: #8E44AD; /* Fundo roxo claro */
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    color: #fff; /* Texto branco */
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ECF0F1; /* Cor do título principal */
+}
+
+p {
+    font-size: 20px;
+    color: #ECF0F1; /* Cor do parágrafo */
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+    transition: all 0.3s ease; /* Transição suave nas imagens */
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid #1ABC9C; /* Cor da borda no hover */
+}
+
+.categoria h2 {
+    color: #9B59B6; /* Cor roxa para os cabeçalhos */
+}
